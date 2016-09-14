@@ -1,5 +1,8 @@
 {
 .appVersion = "919";
+DisplayStrings = (
+"\015 "
+);
 copyright = "Copyright 2012 The Trocchi Project Authors (vern@newtypography.co.uk)";
 customParameters = (
 {
@@ -16,15 +19,14 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 name = fsType;
-value = (
-);
+value = 0;
 },
 {
 name = "Use Typo Metrics";
 value = 1;
 }
 );
-date = "2016-09-02 13:13:01 +0000";
+date = "2016-09-14 13:18:40 +0000";
 designer = "Vernon Adams";
 designerURL = "http://newtypography.co.uk";
 familyName = Trocchi;
@@ -13996,14 +13998,16 @@ width = 480;
 unicode = 00A0;
 },
 {
-glyphname = uni000D;
+glyphname = CR;
+lastChange = "2016-09-14 13:18:40 +0000";
 layers = (
 {
 layerId = "EE746D13-63D7-48F9-B77E-C723CA6A668B";
-width = 682;
+width = 480;
 }
 );
 note = uni000D;
+unicode = 000D;
 },
 {
 glyphname = .notdef;
