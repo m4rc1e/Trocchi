@@ -1,6 +1,6 @@
 {
 .appVersion = "919";
-copyright = "vernon adams";
+copyright = "Copyright 2012 The Trocchi Project Authors (vern@newtypography.co.uk)";
 customParameters = (
 {
 name = licenseURL;
@@ -16,7 +16,8 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 name = fsType;
-value = 0;
+value = (
+);
 },
 {
 name = "Use Typo Metrics";
@@ -24,7 +25,7 @@ value = 1;
 }
 );
 date = "2016-09-02 13:13:01 +0000";
-designer = "vernon adams";
+designer = "Vernon Adams";
 designerURL = "http://newtypography.co.uk";
 familyName = Trocchi;
 featurePrefixes = (
@@ -13984,6 +13985,17 @@ note = space;
 unicode = 0020;
 },
 {
+glyphname = nbspace;
+lastChange = "2016-09-14 08:33:27 +0000";
+layers = (
+{
+layerId = "EE746D13-63D7-48F9-B77E-C723CA6A668B";
+width = 480;
+}
+);
+unicode = 00A0;
+},
+{
 glyphname = uni000D;
 layers = (
 {
@@ -17250,16 +17262,6 @@ note = tilde;
 unicode = 02DC;
 },
 {
-glyphname = NULL;
-layers = (
-{
-layerId = "EE746D13-63D7-48F9-B77E-C723CA6A668B";
-width = 0;
-}
-);
-note = NULL;
-},
-{
 glyphname = _398;
 lastChange = "2016-09-02 12:46:05 +0000";
 layers = (
@@ -17528,6 +17530,16 @@ width = 1001;
 }
 );
 note = _403;
+},
+{
+glyphname = NULL;
+lastChange = "2016-09-14 08:45:15 +0000";
+layers = (
+{
+layerId = "EE746D13-63D7-48F9-B77E-C723CA6A668B";
+width = 0;
+}
+);
 }
 );
 disablesAutomaticAlignment = 1;
@@ -17537,7 +17549,11 @@ instances = (
 customParameters = (
 {
 name = postscriptFullName;
-value = Trocchi;
+value = "Trocchi Regular";
+},
+{
+name = compatibleFullName;
+value = "Trocchi Regular";
 }
 );
 instanceInterpolations = {
