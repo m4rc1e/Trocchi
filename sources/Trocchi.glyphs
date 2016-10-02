@@ -1,8 +1,5 @@
 {
-.appVersion = "919";
-DisplayStrings = (
-"\015 "
-);
+.appVersion = "924";
 copyright = "Copyright 2012 The Trocchi Project Authors (vern@newtypography.co.uk)";
 customParameters = (
 {
@@ -19,7 +16,8 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 name = fsType;
-value = 0;
+value = (
+);
 },
 {
 name = "Use Typo Metrics";
@@ -28,7 +26,7 @@ value = 1;
 );
 date = "2016-09-14 13:18:40 +0000";
 designer = "Vernon Adams";
-designerURL = "http://newtypography.co.uk";
+designerURL = "http://www.newtypography.co.uk";
 familyName = Trocchi;
 featurePrefixes = (
 {
@@ -17537,29 +17535,20 @@ note = _403;
 },
 {
 glyphname = NULL;
-lastChange = "2016-09-14 08:45:15 +0000";
+lastChange = "2016-10-02 13:55:05 +0000";
 layers = (
 {
 layerId = "EE746D13-63D7-48F9-B77E-C723CA6A668B";
 width = 0;
 }
 );
+unicode = 0000;
 }
 );
 disablesAutomaticAlignment = 1;
 disablesNiceNames = 1;
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = "Trocchi Regular";
-},
-{
-name = compatibleFullName;
-value = "Trocchi Regular";
-}
-);
 instanceInterpolations = {
 "EE746D13-63D7-48F9-B77E-C723CA6A668B" = 1;
 };
@@ -17834,7 +17823,7 @@ kerning = {
 };
 };
 manufacturer = newtypography;
-manufacturerURL = "http://newtypography.co.uk";
+manufacturerURL = "http://www.newtypography.co.uk";
 unitsPerEm = 2048;
 versionMajor = 1;
 versionMinor = 100;
