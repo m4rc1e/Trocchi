@@ -44745,7 +44745,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2012 The Trocchi Project Authors (vern@newtypography.co.uk)";
+value = "Copyright 2012 The Trocchi Project Authors (https://github.com/m4rc1e/Trocchi)";
 }
 );
 },
